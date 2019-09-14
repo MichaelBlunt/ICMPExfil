@@ -11,4 +11,3 @@ def recv():
 
 if __name__ == '__main__':
     recv()
-The Sender
